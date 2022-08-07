@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'ababa';
+    src: url('webfont.eot');
+    /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/ababa-black.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('webfont.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('webfont.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('webfont.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'ababa-regular';
+    src: url('webfont.eot');
+    /* IE9 Compat Modes */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('fonts/ababa-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('webfont.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('webfont.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('webfont.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+.title_dsc {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'Tahoma', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: 'ababa', Fallback, sans-serif;
+}
+
+p {
+    font-family: 'ababa-regular', Fallback, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    flex: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+}
+
+td {
+    padding: 20px;
+}
+
+.blue_table {
+    padding: 20px;
+    background-color: aqua;
+    outline: 1px;
+    outline-style: solid;
+    text-align: left;
+}
+
+.profile_pic img {
+
+    max-width: 50%;
+    max-height: 50%;
+}
+
+table {
+    max-width: 80%;
+}
+
+form_elements {
+    font-family: 'ababa-regular', Fallback, sans-serif;
+}
